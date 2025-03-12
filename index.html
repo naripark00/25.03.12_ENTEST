@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025.03.12_ENTEST</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+    $('.banner ul li:gt(0)').hide();
+
+    setInterval(function(){
+    $('.banner li:first').fadeOut(1500, function(){
+        $(this).appendTo('.banner ul').hide();
+        $('.banner li:last').fadeIn(1500);  
+    });
+    }, 3500);
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <img src="content/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="banner">
+                <a href="#"><img src="content/icon1.png" alt="icon1"></a>
+                <div class="banner-container">
+                    <ul>
+                        <li class="article_1">
+                            <div class="text">
+                                <h3>Lorem ipsum<br>dolor sit amet,</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur<br>
+                                    sed do eiusmod tempor incididunt ut<br>
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+
+                        <li class="article_2">
+                            <div class="text">
+                                <h3>Lorem ipsum<br>dolor sit amet,</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur<br>
+                                    sed do eiusmod tempor incididunt ut<br>
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+
+                        <li class="article_3">
+                            <div class="text">
+                                <h3>Lorem ipsum<br>dolor sit amet,</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur<br>
+                                    sed do eiusmod tempor incididunt ut<br>
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#"><img src="content/icon2.png" alt="icon2"></a>
+            </section>
+
+            <section class="card-container">
+                <ul class="card-list">
+                    <li class="card">
+                        <div class="card-image1"></div>
+                        <div class="card-content">
+                            <h4>Lorem ipsum<br>dolor sit amet,</h4>
+                            <p class="card-desc">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,</p>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="card-image2"></div>
+                        <div class="card-content">
+                            <h4>Lorem ipsum<br>dolor sit amet,</h4>
+                            <p class="card-desc">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,</p>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="card-image3"></div>
+                        <div class="card-content">
+                            <h4>Lorem ipsum<br>dolor sit amet,</h4>
+                            <p class="card-desc">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,</p>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                        </div>
+                    </li>
+
+                    <li class="card">
+                        <div class="card-image4"></div>
+                        <div class="card-content">
+                            <h4>Lorem ipsum<br>dolor sit amet,</h4>
+                            <p class="card-desc">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,</p>
+                            <p>Lorem ipsum dolor sit amet,</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="news-container">
+                <div class="news-text">
+                    <div class="content_header">
+                        <h2>Lorem ipsum</h2>
+                        <a href="#"><img src="content/right1.png" alt="right"></a>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>Lorem</span>
+                                <p><strong>Lorem ipsum dolor sit amet,</strong></p>
+                                <p>2025.03.12</p>
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#">
+                                <span>Lorem</span>
+                                <p><strong>Lorem ipsum dolor sit amet,</strong></p>
+                                <p>2025.03.12</p>
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#">
+                                <span>Lorem</span>
+                                <p><strong>Lorem ipsum dolor sit amet,</strong></p>
+                                <p>2025.03.12</p>
+                            </a>
+                        </li>
+        
+                        <li>
+                            <a href="#">
+                                <span>Lorem</span>
+                                <p><strong>Lorem ipsum dolor sit amet,</strong></p>
+                                <p>2025.03.12</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+        
+                <section class="news">
+                    <article class="content1">
+                        <h4>Lorem ipsum dolor sit amet,</h4>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit
+                            <img src="content/right1.png" alt="right">
+                        </p>
+                    </article>
+                    
+                    <article class="content2">
+                        <h4>Lorem ipsum dolor sit amet,</h4>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit
+                            <img src="content/right1.png" alt="right">
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <img src="content/btlogo.png" alt="btlogo">
+                <p>Copyrights 2025. 테스트 All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
